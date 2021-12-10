@@ -1,0 +1,10 @@
+f = int(input('секунды '))
+c = 3600
+m = 60
+f1 = 60
+cc = f//c
+mm = f//m
+ff1 = f
+print(str(cc) + ' часы')
+print(str(mm) + ' минуты')
+print(str(ff1) + ' секунды')
