@@ -1,0 +1,16 @@
+11.
+
+print(float(input())%1)
+12.
+
+print(round(float(input()), 2))
+13.
+
+print(int(input('L = '))//int(input('x = ')))
+14.
+
+print(int(input('L = '))/int(input('n = ')))
+15.
+
+from math import pi
+print((pi*int(input('d = ')))/int(input('n = ')))
