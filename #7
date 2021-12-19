@@ -1,0 +1,6 @@
+n=int(input('Копеек:'))
+rub=n//100
+grn=(n-rub*100)//10
+alt=(n-rub*100-grn*10)//3
+pol=round((n-rub*100-grn*10-alt*3)/0.25)
+print(rub,'рублей',grn,'гривн',alt,'алтынов',pol,'полшек')
